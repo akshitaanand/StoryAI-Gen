@@ -2,7 +2,7 @@ import Head from "next/head";
 import { useState } from "react";
 import styles from "./index.module.css";
 import Button from 'react-bootstrap/Button';
-document.body.style.backgroundColor = "#CEE7CF";
+//document.body.style.backgroundColor = "#CEE7CF";
 
 export default function Home() {
   const [promtInput, setPromtInput] = useState("");
