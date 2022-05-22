@@ -1,0 +1,24 @@
+{
+  "name": "StoryAI",
+  "version": "0.1.0",
+  "homepage": "https://akshitaanand.github.io/StoryAI",
+  "private": true,
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "next": "^11.0.0",
+    "openai": "^2.0.0",
+    "react": "17.0.2",
+    "react-bootstrap": "^2.4.0",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
