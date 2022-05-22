@@ -1,5 +1,5 @@
 # StoryAI-Gen
-# Node.js and React App for generating short stories based on user input using OpenAI
+## Node.js and React App for generating short stories based on user input using OpenAI
 
 ## Setup
 
