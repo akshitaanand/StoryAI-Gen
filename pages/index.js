@@ -2,7 +2,7 @@ import Head from "next/head";
 import { useState } from "react";
 import styles from "./index.module.css";
 import Button from 'react-bootstrap/Button';
-//document.body.style.backgroundColor = "#CEE7CF";
+document.body.style.backgroundColor = "#CEE7CF";
 
 export default function Home() {
   const [promtInput, setPromtInput] = useState("");
@@ -27,13 +27,13 @@ export default function Home() {
   }
 
   return (
-    <div style="background-color:#CEE7CF">
+    <div style={{backgroundColor: "#CEE7CF"}}>
       <Head>
         <title>Story Generator</title>
         <link rel="icon" href="/logo.png" />
       </Head>
 
-      <main className={styles.main} style="background-color:#CEE7CF">
+      <main className={styles.main} style={{backgroundColor: "#CEE7CF"}}>
         <img src="/Newlogo.gif" className={styles.icon} />
         <form onSubmit={onSubmit}>
           <input
