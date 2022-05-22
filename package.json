@@ -1,7 +1,7 @@
 {
   "name": "StoryAI",
   "version": "0.1.0",
-  "homepage": "https://akshitaanand.github.io/StoryAI-Generator",
+  "homepage": "https://akshitaanand.github.io/StoryAI-Gen",
   "private": true,
   "scripts": {
     "predeploy": "npm run build",
