@@ -27,13 +27,13 @@ export default function Home() {
   }
 
   return (
-    <div style = {{backgroundColor: "#CEE7CF"}}>
+    <div style="background-color:#CEE7CF">
       <Head>
         <title>Story Generator</title>
         <link rel="icon" href="/logo.png" />
       </Head>
 
-      <main className={styles.main}>
+      <main className={styles.main} style="background-color:#CEE7CF">
         <img src="/Newlogo.gif" className={styles.icon} />
         <form onSubmit={onSubmit}>
           <input
